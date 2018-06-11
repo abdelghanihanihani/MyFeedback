@@ -1,0 +1,68 @@
+<ActionBar class="action-bar">
+        <NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>
+        <ActionItem icon="res://navigation/menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()"
+            ios.position="left">
+        </ActionItem>
+        <Label class="action-bar-title" text="My Feedback"></Label>
+    </ActionBar>
+    <RadSideDrawer #drawer showOverNavigation="true" [drawerTransition]="sideDrawerTransition">
+        <StackLayout tkDrawerContent>
+            <MyDrawer [selectedPage]="'Pubf'"></MyDrawer>
+        </StackLayout>
+    </RadSideDrawer>
+    <ScrollView *ngIf="!List"> 
+        <GridLayout  backgroundColor="#FFFFFF" rows="60, auto, *" >
+            <StackLayout row="0" height="50" width="200" >
+               <Image src="~/assets/proxym.png" ></Image>
+            </StackLayout>
+            <StackLayout class="input-field" row="1" orientation="vertical"  margin="10" backgroundColor="#dedee5">
+                <GridLayout rows="auto,auto,auto,auto,auto" columns="*, *">
+                    <Label  class="label" text="Context :" row="0" col="0" margin="10" ></Label>
+                    <DropDown #dd [items]="ListOfContexts" row="0" col="1" textAlignment="center" [(ngModel)]="selectedContextType" (selectedIndexChanged)="OnChangeContextType($event)"></DropDown>
+                    <Label *ngIf="!Other" class="label" [text]="Context" row="1" col="0" margin="10" ></Label>
+                    <DropDown *ngIf="!Other" #dd [items]="Contexts" row="1" col="1" selectedIndex="0" [(ngModel)]="selectedContext" (selectedIndexChanged)="OnChangeContext($event)"></DropDown>
+                    <Label *ngIf="Other" class="label" text="Other :" row="2" col="0" margin="10" ></Label>
+                    <TextField *ngIf="Other" #tx row="2" col="1" class="input" hint="Other" (textChange)="submit(tx.text)" ></TextField>
+                    <Label  class="label" text="Type :" row="3" col="0" margin="10" ></Label>
+                    <DropDown  #dd [items]="Types" row="3" col="1"  [(ngModel)]="selectedType" (selectedIndexChanged)="OnChangeType($event)"></DropDown>
+                    <Label  class="label" text="Mode :" row="4" col="0" margin="10" ></Label>
+                    <DropDown  #dd [items]="Modes" row="4" col="1"  [(ngModel)]="selectedMode" (selectedIndexChanged)="OnChangeMode($event)"></DropDown>   
+                       
+                </GridLayout>
+            </StackLayout>
+            <StackLayout row="2" >
+            </StackLayout>
+            <StackLayout class="input-field" row="3" orientation="vertical"  margin="10" backgroundColor="#FFFFFF">
+                <TextView #value="ngModel" class="input" height="90" hint="Enter your feedback..." textAlignment="center"  [(ngModel)]="feedback.value" required></TextView>
+                <StackLayout *ngIf="value.errors && (value.dirty || value.touched)" margin="10">
+                        <Label *ngIf="value.errors.required" text="- The feedback value is required -" color="red" margin="10" textAlignment="center"></Label>
+                    </StackLayout>
+                    <Label *ngIf="ErrorOther" text="- The context is required -" color="red"   margin="10" textAlignment="center"></Label> 
+                <Button [isEnabled]="value.valid && !ErrorOther" text="Publish" class="btn btn-primary btn-rounded-lg" (tap)="publish()"></Button>
+                <Button text="Reset" class="btn btn-reset " (tap)="reset()"></Button>
+            </StackLayout>
+        </GridLayout>
+    </ScrollView>
+    
+                <GridLayout rows="auto,auto,*,auto,auto" *ngIf="List">
+                    <Label row="0" text="Choose your feedback's Targets" textWrap="true"  textAlignment="center"></Label>
+                    <Label row="1" [text]="count" textWrap="true"  textAlignment="center"></Label>
+                <ListView row="2" class="list-group" [items]="ListOfEmployee" (itemTap)="onItemTap($event)" style="height:1000px">
+                        <ng-template let-employee="item" let-i="index">
+                            <FlexboxLayout flexDirection="row" class="list-group-item" >
+                                <Label [text]="employee.firstname+' '+employee.lastname" [id]="'lblf' + i" [class.isTaped]="isTaped " class="list-group-item-heading"   textWrap="true"></Label>
+                                <!-- <Label *ngIf='isTaped' text="+"[id]="'lbll' + i" class="list-group-item-heading" verticalAlignment="center" style="width: 40%"></Label> -->
+                                <!-- <CheckBox [id]="'lblf' + i"   style="height:  10%;width:  10%;"></CheckBox> -->
+                            </FlexboxLayout>
+                        </ng-template>
+                    </ListView>   
+                    <Button row="3" text="Finish" (tap)="finish()" class="btn btn-primary btn-rounded-lg"></Button>
+                    <Button row="4" text="Reset" (tap)="resetTargets()" class="btn btn-primary btn-rounded-lg"></Button>
+                    
+                </GridLayout>
+                <ActivityIndicator [busy]="isBusy" class="activity-indicator"></ActivityIndicator>
+        
+        
+      
+        
+   

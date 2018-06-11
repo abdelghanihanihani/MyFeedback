@@ -1,0 +1,66 @@
+<ActionBar class="action-bar">
+    <NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>
+    <ActionItem icon="res://navigation/menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()"
+        ios.position="left">
+    </ActionItem>
+    <Label class="action-bar-title" text="Home"></Label>
+</ActionBar>
+<RadSideDrawer #drawer showOverNavigation="true" [drawerTransition]="sideDrawerTransition">
+    <StackLayout tkDrawerContent>
+        <MyDrawer [selectedPage]="'Allf'"></MyDrawer>
+    </StackLayout>
+</RadSideDrawer>
+<ScrollView>
+    
+
+<GridLayout rows="auto,auto,400" *ngIf="!isFeedback" >
+        <StackLayout row="0" height="50" width="200" >
+        <Image src="~/assets/proxym.png" ></Image>
+     </StackLayout>
+<StackLayout row="1">
+    <GridLayout rows="auto,auto,auto,auto" >
+       
+        <Button row="0" class="btn btn-primary btn-rounded-lg" text="By Date" (tap)="bydate()"></Button>
+        <DatePicker *ngIf="isDate" row="1" [year]="currentYear" [month]="currentMonth" [day]="currentDay" minDate="2018-02-01" [maxDate]="date" (dateChange)="onDateChanged($event)" ></DatePicker>
+        
+        <Button row="2" class="btn btn-primary btn-rounded-lg" text="By Context"  (tap)="bycontext()"></Button>
+        
+        <DropDown #dd [items]="ContextType" *ngIf="isContext" row="3"  textAlignment="center" margin="10" [(ngModel)]="selectedContextType" (selectedIndexChanged)="OnChangeContextType($event)"></DropDown>
+    </GridLayout>
+</StackLayout>
+
+        <ListView row="2" class="list-group" [items]="ListOfFds" (itemTap)="onItemTap($event)" style="height:1250px">
+                <ng-template let-feedback="item">
+                    <FlexboxLayout flexDirection="row" class="list-group-item">
+                        <Label [text]="feedback.context" class="list-group-item-heading"  style="width: 40%"></Label>
+                        <Label [text]="feedback.date" ></Label>
+                    </FlexboxLayout>
+                </ng-template>
+            </ListView>   
+
+    
+</GridLayout>
+</ScrollView>
+<ActivityIndicator [busy]="isBusy" class="activity-indicator"></ActivityIndicator>
+<ScrollView>
+<GridLayout rows="auto,auto,auto" *ngIf="isFeedback">
+        <StackLayout row="0" height="50" width="200" >
+        <Image src="~/assets/proxym.png" ></Image>
+     </StackLayout>
+ 
+        <StackLayout row="1" margin="10" backgroundColor="#dedee5">
+                <GridLayout rows="auto,auto,auto" columns="*,*">
+                        <Label row="0" col="0" class="Label" text="Context :" textWrap="true" margin="10"></Label>
+                        <Label row="0" col="1" class="Label" [text]="feedback.context" textWrap="true" margin="10"></Label>
+                        <Label row="1" col="0" class="Label" text="Publication date :" textWrap="true" margin="10"></Label>
+                        <Label row="1" col="1" class="Label" [text]="feedback.date" textWrap="true" margin="10"></Label>
+                        <Label row="2" col="0" class="Label" text="Value :" textWrap="true" margin="10"></Label>
+                </GridLayout>
+                <Label class="Label" [text]="feedback.value" textWrap="true"  margin="10"></Label>  
+        </StackLayout>  
+
+<StackLayout row="2" margin="10">
+        <Button class="btn btn-primary btn-rounded-lg" text="OK" (tap)="OK()"></Button>
+</StackLayout>
+</GridLayout>
+</ScrollView>

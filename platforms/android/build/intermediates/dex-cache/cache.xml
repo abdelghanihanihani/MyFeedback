@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\880d0ec111ca097e17f26f89c5811612035dcfc1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ce22401852bd9e460265a9a1567f7cedb6fc91b9">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_77c87d3f834795c269accb0e8c0a600e9485b82e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\91142625169f2cc041b4d5fd2fdc1dfffcfb702c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="556dc4e7734c7445d7310a625fad89c5be6728b2">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_19bc6b867529fa5933db8d2b384643f92a205357.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\51f8a26d20bb109ef1b70ce4fba4aa50eabcc09b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="556dc4e7734c7445d7310a625fad89c5be6728b2">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_31f0b12f2f754f720cd3f07337cdacd699597a83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\493151e04c568fd7b9d40e7ba1099b07d6efbcb2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9ffa5b2e37c626bd25cfbff4df099cdf068595f9">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_3247999e2980f4e03e1d180f369205026711d1f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\fb4af464361929636db4be3378089e2e40725340\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="21ece50b870a8bea45608a6748ad60112d5d9ed1">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_26bd3656429d8e6dd886cb621639fea23b41f0c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\70cdcdb4d6d77a6123c36cd84ae867fb9d2b33bc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ce22401852bd9e460265a9a1567f7cedb6fc91b9">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_ce527c850af39e2b0c8b20eb2ca3388900722264.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\4632229e9bcc07356c4146dc64fa1dafa6cbba0f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0eed9e468431f447bf63f3a0cee23418e8994411">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_b8a8ba07ffbe69609a4ca27a0aeef2acdb9ce755.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\eb8162aff72a6a0d1e7a7f15918b57d6f9558ec1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9ffa5b2e37c626bd25cfbff4df099cdf068595f9">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_51ecc4f68998a126b7c26018a7e3aa2ae310d818.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\cbb07a5570e2156af79091fc3113aceed2876446\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ae411cd0dd58ad905486a0bc7931ec5adf3a2d13">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_52ddea1beb40e7590b7a8d83a257a563f4923ea5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\7689ec4628d7d91ec85763e050ebdead6d9d7592\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_dceed56fffe83eaab0a84451918f2036767a8477.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\6185daf5feb901abe2a644b58ec877b23de7a267\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_d3d07efe5e4a6d7b4889433d76958693d1ce1823.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\69ffd47912b8527c79f2c796877785f91c2de30e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4df8aad66215f497722e05820383f9ff04796fea">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_52192b4f4aa86ae8513a963884d7c695f635dd7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\a233f20748af9b252af5cef3271b56c3078766e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ae411cd0dd58ad905486a0bc7931ec5adf3a2d13">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_e39fbd1a4dbf3fdf690c34e17a7647c1cddee2dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\baf530498b4636c87ac5c1dce36071e5690e01e0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="21ece50b870a8bea45608a6748ad60112d5d9ed1">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_d19dba76374d42c5f72c2a5dd2138c667ce61fc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\6a5028dd635e71a480e7e8f545454b6f13a04acb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0eed9e468431f447bf63f3a0cee23418e8994411">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_0e3a15bf131530cd4c94fbe8ad9cec0e43c543d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\dfa0df3eacfa1a312b8ac58199dab2278a3c5841\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_51a8dba9a19ba9af93f442b38b7b12698f6cc9b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\44a5d5464b1127322168541e8bf7fc3dfa46df97\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_38127beb1d1398e6b1a65ba78767dc4a053c5883.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\1021df80fe83e2c0c7e91c83b0a7ecad272516f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="16dfa5cc51cd9a9e2809e48ceb26724a29861fdd">
+        <dex dex="D:\hani\formations\nativescript\tps\tp3\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_d932cc3649bef07e796d4323da7cfb4263f58710.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\81abd4a19b0d0b469d527a8468f6e82ba0ab0855\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4df8aad66215f497722e05820383f9ff04796fea">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_9d77a200d616f21098c4348492e99bb313dca822.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hani\.android\build-cache\3d3d4115be745039004197ff271777157f0ccc29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="16dfa5cc51cd9a9e2809e48ceb26724a29861fdd">
+        <dex dex="D:\hani\PFE\MyFeedback\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_4d5b0180dfe6404a85b03fc16eeafd90f8302bb4.jar" />
+    </item>
+
+</items>

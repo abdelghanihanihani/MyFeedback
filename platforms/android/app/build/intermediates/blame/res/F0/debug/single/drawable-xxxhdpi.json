@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi\\icon.png",
+        "source": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi\\menu.png",
+        "source": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\menu.png"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi\\background.png",
+        "source": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi\\menu.png",
+        "source": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\menu.png"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi\\logo.png",
+        "source": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi\\background.png",
+        "source": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi\\logo.png",
+        "source": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi\\icon.png",
+        "source": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\icon.png"
+    }
+]

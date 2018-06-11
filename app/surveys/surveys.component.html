@@ -1,0 +1,88 @@
+<ActionBar class="action-bar">
+    <!-- 
+    Use the NavigationButton as a side-drawer button in Android because ActionItems are shown on the right side of the ActionBar
+    -->
+    <NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>
+    <!-- 
+    Use the ActionItem for IOS with position set to left. Using the NavigationButton as a side-drawer button in iOS is not possible, because its function is to always navigate back in the application.
+    -->
+    <ActionItem icon="res://navigation/menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()"
+        ios.position="left">
+    </ActionItem>
+    <Label class="action-bar-title" text="Surveys"></Label>
+</ActionBar>
+
+ <RadSideDrawer #drawer showOverNavigation="true" [drawerTransition]="sideDrawerTransition">
+    
+     <StackLayout tkDrawerContent>
+        <MyDrawer [selectedPage]="'Surveys'"></MyDrawer>
+    </StackLayout>
+</RadSideDrawer>
+<GridLayout rows="auto,*,auto">
+    <SegmentedBar *ngIf="isListe" row="0" [items]="items" selectedIndex="0" (selectedIndexChange)="onSelectedIndexChange($event)"  class="m-5"></SegmentedBar>
+    
+    <ListView *ngIf="isListe" row="1"  class="list-group" [items]="List" (itemTap)="onItemTap($event)" style="height:1250px">
+        <ng-template let-item="item">
+            <GridLayout rows="auto,auto" columns="auto,auto" class="list-group-item">
+                    <Label row="0" col="0" text="Context :" class="list-group-item-heading" ></Label>
+                    <Label row="0" col="1" [text]="item.context" class="list-group-item-heading" textWrap="true" ></Label>
+                <Label row="1" col="0" text="date :" class="list-group-item-heading"  ></Label>
+                <Label row="1" col="1" [text]="item.date" class="list-group-item-heading"  ></Label>
+            </GridLayout>
+        </ng-template>
+    </ListView>  
+    <Button *ngIf="isListe && isAdmin && isSurvey" row="2" class="btn btn-primary btn-rounded-lg" text="Create survey" (tap)="CreateSurvey()" ></Button>
+    <Button *ngIf="isListe && isAdmin && !isSurvey" row="2" class="btn btn-primary btn-rounded-lg" text="Create Enquire" (tap)="CreateEnquire()" ></Button>
+    
+    <ScrollView row="1"  *ngIf="!isListe">
+        
+    
+            <GridLayout rows="auto,auto,auto,auto,auto,auto" >
+                <Label row="0" class="label" text="Context : Survey context" textWrap="true" textAlignment="center" ></Label>
+                
+                    <!-- <StackLayout row="0" class="hr-dark"></StackLayout> -->
+                <StackLayout row="1" class="input-field"  orientation="vertical"  margin="10"  backgroundColor="#f2f3f4">
+                    <GridLayout rows="auto,auto,auto,auto,auto" class="list-group-item">
+                            <Label class="question" row="0" text="Question 1 :" margin="10" textWrap="true" ></Label>
+                        <Label class="question" row="1"  [text]="q1" margin="10" textWrap="true" ></Label>
+                        <CheckBox color="#2727e8" row="2" id="cb1" text="Yes"></CheckBox> 
+                        <CheckBox color="#2727e8" row="3" id="cb2" text="No"></CheckBox> 
+                        <CheckBox *ngIf="true" color="#2727e8" row="4" id="cb3" text="Neutral"></CheckBox>                        
+                    </GridLayout>
+                        
+                </StackLayout>
+                <!-- <StackLayout row="2" class="hr-dark"></StackLayout> -->
+                <StackLayout  row="2" class="input-field"  orientation="vertical"  margin="10"  backgroundColor="#f2f3f4" >
+                        <GridLayout rows="auto,auto,auto,auto,auto" class="list-group-item">
+                                <Label class="question" row="0" text="Question 2 :" margin="10" textWrap="true" ></Label>
+                            <Label class="question" row="1"  [text]="q1" margin="10" textWrap="true" ></Label>
+                            <CheckBox color="#2727e8" row="2" id="cb1" text="Yes"></CheckBox> 
+                            <CheckBox color="#2727e8" row="3" id="cb2" text="No"></CheckBox> 
+                            <CheckBox *ngIf="false" color="#2727e8" row="4" id="cb3" text="Neutral"></CheckBox> 
+                        </GridLayout>
+                            
+                </StackLayout>
+                <!-- <StackLayout row="4" class="hr-dark"></StackLayout> -->
+                <StackLayout  row="3" class="input-field"  orientation="vertical"  margin="10"  backgroundColor="#f2f3f4" >
+                        <GridLayout rows="auto,auto,auto,auto,auto" class="list-group-item">
+                                <Label class="question" row="0" text="Question 3 :" margin="10" textWrap="true" ></Label>
+                            <Label class="question" row="1"  [text]="q1" margin="10" textWrap="true" ></Label>
+                            <CheckBox color="#2727e8" row="2" id="cb1" text="Yes"></CheckBox> 
+                            <CheckBox color="#2727e8" row="3" id="cb2" text="No"></CheckBox> 
+                            <CheckBox *ngIf="true" color="#2727e8" row="4" id="cb3" text="Neutral"></CheckBox> 
+                        </GridLayout>
+                                
+                </StackLayout>
+                <!-- <StackLayout row="6" class="hr-dark"></StackLayout>     -->
+                <Button  row="4" class="btn btn-primary btn-rounded-lg" text="Next page" (tap)="FinishSurvey()" ></Button>
+                <Button  row="5" class="btn btn-primary btn-rounded-lg" text="Reset" (tap)="FinishSurvey()" ></Button>
+                
+                
+                
+            </GridLayout>
+        </ScrollView>  
+</GridLayout>
+ 
+    
+
+

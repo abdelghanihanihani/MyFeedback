@@ -1,0 +1,25 @@
+.label{
+  color:#2727e8;
+  font-size: 16;
+}
+DropDown{
+color: #2727e8;
+font-size: 16;
+}
+TextView{
+  color: #2727e8;
+  font-size: 16;
+}
+TextField{
+  color: #2727e8;
+  font-size: 16;
+}
+.selected{
+  background-color: blue;
+}
+.isTaped{
+  background-color: blue;
+}
+.third {
+  background-color: lime;
+}

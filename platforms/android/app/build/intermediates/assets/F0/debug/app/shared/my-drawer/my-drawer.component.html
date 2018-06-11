@@ -1,0 +1,24 @@
+<GridLayout rows="auto, *" class="sidedrawer sidedrawer-left">
+    <StackLayout row="0" class="sidedrawer-header">
+        <Label class="sidedrawer-header-image fa" text="&#xf2bd;"></Label>
+        <Label class="sidedrawer-header-brand" text="Welcome"></Label>
+        <Label class="sidedrawer-header-brand" [text]="UserName"></Label>
+        
+    </StackLayout>
+
+    <ScrollView row="1">
+        <StackLayout class="sidedrawer-content">
+            <MyDrawerItem title="Home" route="/allf" icon="&#xf015;" [isSelected]="isPageSelected('Allf')">
+            </MyDrawerItem>
+            <MyDrawerItem title="My Feedback" route="/Pubf" icon="&#xf003;" [isSelected]="isPageSelected('Pubf')">
+            </MyDrawerItem>
+             <MyDrawerItem title="Surveys" route="/surveys" icon="&#xf004;" [isSelected]="isPageSelected('Surveys')">
+            </MyDrawerItem>  
+            <MyDrawerItem title="Enquiries" route="/enquiries" icon="&#xf006;" [isSelected]="isPageSelected('Enquiries')">
+            </MyDrawerItem>
+            <StackLayout class="hr-light"></StackLayout>
+            <MyDrawerItem title="Sign out" route="/login" icon="&#xf011;">
+            </MyDrawerItem>
+        </StackLayout>
+    </ScrollView>
+</GridLayout>

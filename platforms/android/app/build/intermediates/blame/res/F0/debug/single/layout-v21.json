@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]

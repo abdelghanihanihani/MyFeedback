@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fa09ecf5cd047f8a1a28a7289abb847917bd4456\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\drawer_slide_out_top.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\1021df80fe83e2c0c7e91c83b0a7ecad272516f5\\output\\res\\anim\\drawer_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fa09ecf5cd047f8a1a28a7289abb847917bd4456\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fa09ecf5cd047f8a1a28a7289abb847917bd4456\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fa09ecf5cd047f8a1a28a7289abb847917bd4456\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\drawer_slide_in_top.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\3d3d4115be745039004197ff271777157f0ccc29\\output\\res\\anim\\drawer_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fa09ecf5cd047f8a1a28a7289abb847917bd4456\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fa09ecf5cd047f8a1a28a7289abb847917bd4456\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\drawer_slide_out_top.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\3d3d4115be745039004197ff271777157f0ccc29\\output\\res\\anim\\drawer_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fa09ecf5cd047f8a1a28a7289abb847917bd4456\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fa09ecf5cd047f8a1a28a7289abb847917bd4456\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\c0e00df426080a5f31a496a74799f318e19511ae\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\drawer_slide_in_top.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\1021df80fe83e2c0c7e91c83b0a7ecad272516f5\\output\\res\\anim\\drawer_slide_in_top.xml"
+    }
+]

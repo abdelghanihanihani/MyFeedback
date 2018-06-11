@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\xml\\chart_palettes_light_selected.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fb4af464361929636db4be3378089e2e40725340\\output\\res\\xml\\chart_palettes_light_selected.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\xml\\chart_palettes_default_light.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\baf530498b4636c87ac5c1dce36071e5690e01e0\\output\\res\\xml\\chart_palettes_default_light.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\xml\\chart_palettes_default_dark.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\baf530498b4636c87ac5c1dce36071e5690e01e0\\output\\res\\xml\\chart_palettes_default_dark.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\xml\\chart_palettes_default_light.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fb4af464361929636db4be3378089e2e40725340\\output\\res\\xml\\chart_palettes_default_light.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\xml\\chart_palettes_light_selected.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\baf530498b4636c87ac5c1dce36071e5690e01e0\\output\\res\\xml\\chart_palettes_light_selected.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\xml\\chart_palettes_default_dark.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fb4af464361929636db4be3378089e2e40725340\\output\\res\\xml\\chart_palettes_default_dark.xml"
+    },
+    {
+        "merged": "D:\\hani\\formations\\nativescript\\tps\\tp3\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\xml\\chart_palettes_dark_selected.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\baf530498b4636c87ac5c1dce36071e5690e01e0\\output\\res\\xml\\chart_palettes_dark_selected.xml"
+    },
+    {
+        "merged": "D:\\hani\\PFE\\MyFeedback\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\xml\\chart_palettes_dark_selected.xml",
+        "source": "C:\\Users\\hani\\.android\\build-cache\\fb4af464361929636db4be3378089e2e40725340\\output\\res\\xml\\chart_palettes_dark_selected.xml"
+    }
+]

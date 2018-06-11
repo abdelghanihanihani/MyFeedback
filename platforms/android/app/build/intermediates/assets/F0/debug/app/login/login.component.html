@@ -1,0 +1,28 @@
+<GridLayout>
+    <ScrollView >
+        <StackLayout  verticalAlignment="center" margin="10">   
+            <StackLayout class="form" padding="15" backgroundColor="#FFFFFF">
+                    <Image  src="~/assets/proxym.png"></Image>
+                    <label text="Connection failed, please try again" *ngIf="CantConnect"  color="#d8abb0" ></label>
+                <StackLayout class="input-field">
+                    <Label text="Login" class="label font-weight-bold m-b-5" ></Label>
+                    <TextField  #login="ngModel" [(ngModel)]="employee.login" class="input" required></TextField>
+                    <StackLayout class="hr-light"></StackLayout>
+                    <StackLayout *ngIf="login.errors && (login.dirty || login.touched)">
+                            <Label *ngIf="login.errors.required" text="-  Login is required -" color="#d8abb0"></Label>
+                </StackLayout>
+                </StackLayout>
+                <StackLayout class="input-field">
+                    <Label text="Password" class="label font-weight-bold m-b-5"></Label>
+                    <TextField #password="ngModel" secure="true" class="input"  [(ngModel)]="employee.password" required></TextField>
+                    <StackLayout class="hr-light"></StackLayout>
+                    <StackLayout *ngIf="password.errors && (password.dirty || password.touched)">
+                            <Label *ngIf="password.errors.required" text="-  Password is required -" color="#d8abb0"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <Button [isEnabled]="login.valid && password.valid" class="btn btn-primary btn-rounded-lg" text="Sign in" (tap)="Signin()"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</GridLayout>
+<ActivityIndicator [busy]="isBusy" class="activity-indicator"></ActivityIndicator>
